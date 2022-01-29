@@ -1,0 +1,59 @@
+/* ------------------------------------Team Page-------------------------------------- */
+#team{
+    text-align: center;
+    padding: 35px 50px 0;
+}
+#team .row{
+    width: 100%;
+}
+#team h1{
+    font-size: 4rem; font-weight: 600;
+}
+#team .team-member{
+    margin-top: 80px;
+}
+#team .member-img{
+    height: 250px; width: 250px;
+    border-radius: 100%; border-color: white; border-width: 2px; border-style: solid;
+    box-shadow: 1px 1px 10px darkgray;
+}
+#team h2{
+    font-size: 1.9rem;
+    margin-top: 8px;
+}
+#team h3{
+    font-size: 1.2rem; line-height: 2;
+}
+#team ul{
+    list-style-type: none;
+    position: relative; right: 15px;
+}
+#team li{
+    display: inline-block;
+}
+#team .social-icon{
+    height: 25px;
+    margin: 5px;
+}
+#team .fab{
+    color: white;
+}
+@media (max-width: 1000px){
+    #team .member-img{
+        height: 450px; width: 450px;
+        margin-top: 10px;
+    }
+    #team h1{
+        font-size: 5rem;
+    }
+    #team h2{
+        font-size: 5rem;
+    }
+    #team h3{
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    #team .social-icon{
+        height: 50px; margin: 0 10px;
+    }
+}

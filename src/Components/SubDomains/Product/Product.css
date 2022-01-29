@@ -1,0 +1,106 @@
+/* ------------------------------------Products Page---------------------------------- */
+#product-page{
+    padding: 50px 50px 20px 20px;
+}
+#product-page h1{
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#product-page h2{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px; margin-top: 10px;
+}
+#product-page h2{
+	background: linear-gradient(
+		45deg,
+		#df41ff,
+		#34d0ff 30%,
+		#6054ff 60%,
+		#fc34fc
+	);
+	width: fit-content;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#product-page h3{
+    font-size: 1.43rem;
+    margin: 10px;
+}
+#product-page h4{
+    font-size: 1rem;
+}
+#product-page .product-img{
+    width: 320px;
+    margin-left: 10%; margin-top: 10px;
+    border-radius: 8%; border: solid white 1px;
+}
+#product-page button{
+    width: 30%; font-size: 1rem; font-weight: 600;
+    margin-top: 15px;
+}
+#product-page button:hover{
+    border: solid white 1px;
+}
+#product-page .divs{
+    margin-top: 100px; margin-left: 50px;
+    text-align: center;
+}
+#product-page .div-img{
+    width: 200px;
+    border-radius: 100%; border: solid white 1px;
+}
+#product-page .product2{
+    margin-top: 140px;
+}
+#product-page hr{
+    position: relative; top: 70px;
+}
+@media (max-width: 1000px){
+    #product-page{
+        padding: 40px 0 0 3rem;
+    }
+    #product-page h1{
+        font-size: 5rem;
+    }
+    #product-page h2{
+        font-size: 5rem;
+        margin-top: 10%;
+    }
+    #product-page h3{
+        font-size: 2.5rem;
+    }
+    #product-page h4{
+        font-size: 2rem;
+    }
+    #product-page p{
+        font-size: 2rem;
+    }
+    #product-page .product-img{
+        width: 480px;
+        margin-left: 25%; margin-top: 10px;
+    }
+    #product-page .div-img{
+        width: 200px;
+        border-radius: 100%; border: solid white 1px;
+        margin-top: 80px;
+    }
+    #product-page button{
+        width: 40%; font-size: 2.5rem; font-weight: 600;
+        margin-top: 15px;
+    }
+    #product-page .divs{
+        margin-top: 0; margin-left: -3rem;
+    }
+    #product-page .product2{
+        margin-top: 200px;
+        margin-bottom: 150px;
+    }
+    #product-page hr{
+        width: 98%;
+        border: white 3px solid;
+        position: relative; top: 100px; right: 200px; left: 5px;
+    }
+}
