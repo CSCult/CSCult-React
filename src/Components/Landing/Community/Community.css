@@ -1,0 +1,48 @@
+/* ------------------------------------Community Section------------------------------ */
+
+#community .community-content{
+    color: white;
+    margin: 3% 4% 0 4%;
+}
+#community .community-content h2{
+    font-size: 3rem; line-height: 2;
+}
+#community h3{
+    font-size: 2rem; font-weight: 600;
+}
+#community .community-content p{
+    font-size: 1.2rem;
+}
+#community .row{
+    margin: 7% 10% 0;
+}
+#community .img1{
+    width: 110%; 
+}
+#community .img2{
+    width: 40%; padding-top: 15px;
+}
+#community .img2:hover{
+    width: 43%; padding-top: 15px;
+}
+#community .join-discord{
+    margin-top: 20px; margin-left: 130px;
+}
+@media (max-width: 1000px){
+    #community .community-content{
+        margin-right: 0;
+    }
+    #community .community-content h2{
+        font-size: 4rem;
+        margin-top: 100px;
+    }
+    #community .community-content p{
+        font-size: 2rem; padding-bottom: 20px;
+    }
+    #community .img1{
+        width: 100%; padding-bottom: 50px;
+    }
+    #community .img2{
+        width: 40%; margin-left: 120px; padding-top: 50px;
+    }
+}

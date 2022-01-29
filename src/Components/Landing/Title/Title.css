@@ -1,0 +1,51 @@
+/* ------------------------------------Title Section---------------------------------- */
+
+#title .main-img{
+    width: 100%;
+    z-index: -1;
+}
+#title .title-content{
+    position: absolute; top: 13rem; left: 2rem;
+    width: 50%;
+}
+#title .title-content h1{
+    color: white;
+    font-size: 3.5rem; font-weight: 600;
+}
+#title .title-content p{
+    color: white;
+    font-size: 1.2rem; font-weight: 400; letter-spacing: 2px;
+}
+#title .title-content button{
+    font-size: 1rem; font-weight: 600; letter-spacing: 2px;
+    width: 37%;
+    margin-top: 10px;
+}
+#title .title-content button:hover{
+    color: #04293A; background-color: lightgrey;
+}
+@media (min-width: 1358px){
+    #title .title-content{
+        top: 17rem; left: 2rem;
+    }
+}
+@media (min-width: 1458px){
+    #title .title-content{
+        top: 18rem; left: 2rem;
+    }
+}
+@media (max-width: 1000px){
+    #title .title-content{
+        top: 12rem; left: 3rem; 
+    }
+    #title .title-content h1{
+        font-size: 2rem; font-weight: 600;
+    }
+    #title .title-content p{
+        color: white;
+        font-size: 1.2rem; font-weight: 400; letter-spacing: 2px;
+    }
+    #title .title-content button{
+        font-size: 2rem; width: 50%;
+    }
+}

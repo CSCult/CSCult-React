@@ -1,0 +1,40 @@
+/* ------------------------------------About Section---------------------------------- */
+
+#about .row{
+    margin: 3% 4% 0 4%;
+}
+#about .about-content h2{
+    font-size: 3rem; line-height: 2;
+}
+#about .about-content p{
+    font-size: 1.2rem;
+}
+#about img{
+    height: 70%;
+	animation: infiniteRotate 2s linear infinite;
+    transition: 1s all;
+    margin-top: 80px; margin-left: 60px;
+}
+@keyframes infiniteRotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@media (max-width: 1000px){
+    #about .row{
+        margin-right: 0;
+    }
+    #about .about-content h2{
+        font-size: 4rem;
+    }
+    #about .about-content p{
+        font-size: 2rem; padding-bottom: 20px;
+    }
+    #about img{
+        height: 100%;
+        margin: 40px 0 200px 200px;
+    }
+}

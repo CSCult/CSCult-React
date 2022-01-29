@@ -1,0 +1,96 @@
+/* ------------------------------------Footer Section--------------------------------- */
+#footer{
+    background-color: #393E46;
+    margin-top: 70px;
+    padding: 50px 20px 0;
+}
+#footer div{
+    width: 100%;
+}
+#footer h4{
+    font-size: 2rem; font-weight: 400;
+}
+#footer .footer-logo{
+    height: 70px;
+    margin-left: 95%; position: relative; bottom: 60px;
+}
+#footer .content-box{
+    position: relative; bottom: 60px; right: 300px;
+}
+#footer ul{
+    text-align: center;
+    list-style-type: none;
+    margin-top: 60px;
+}
+#footer li{
+    display: inline-block;
+    margin: 10px;
+}
+#footer li:hover{
+    display: inline-block;
+    margin: 10px;
+    color: lightgray;
+}
+#footer .fab{
+    color: white;
+    padding: 5px;
+}
+#footer .fab:hover{
+    color: gray;
+}
+#footer h5{
+    font-size: 2rem; font-weight: 400;
+}
+#footer .footer-img1{
+    width: 45%;
+    position: absolute; top: -100px; right: -220px;
+}
+@media (min-width: 1300px){
+    #footer .footer-img1{
+        width: 45%;
+        top: -130px; right: -220px;
+    }
+}
+@media (min-width: 1400px){
+    #footer .footer-img1{
+        width: 43%;
+        top: -150px; right: -220px;
+    }
+}
+@media (min-width: 1500px){
+    #footer .footer-img1{
+        width: 40%;
+        top: -150px; right: -220px;
+    }
+}
+@media (max-width: 1000px){
+    #footer{
+        width: 103%;
+    }
+    #footer h4{
+        font-size: 4rem;
+    }
+    #footer .footer-logo{
+        height: 120px;
+        margin-left: 90%; bottom: 100px;
+    }
+    #footer .content-box{
+        bottom: 150px; right: 0;
+    }
+    #footer h5{
+        font-size: 3rem;
+    }
+    #footer li{
+        font-size: 2.5rem;
+    }
+    #footer button{
+        font-size: 2.5rem; font-weight: 600;
+        margin-top: 20px;
+    }
+    #footer .footer-img1{
+        width: 85%;
+        position: relative; top: 100px; right: -10%;
+    }
+
+}
+/* ----------------------------------------------------------------------------------- */
