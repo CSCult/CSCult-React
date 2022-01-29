@@ -1,0 +1,38 @@
+/* ------------------------------------Navigation Bar (Branch)---------------------- */
+
+#navigation-branch nav{
+    padding: 0 5% 0 2%;
+}
+#navigation-branch .navbar-brand img{
+    height: 50px;
+}
+#navigation-branch .navbar-brand{
+    font-size: 2rem;
+    font-weight: 600;
+}
+#navigation-branch .nav-item{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-right: 10px;
+}
+#navigation-branch .nav-item:hover{
+    font-weight: 600;
+    font-size: 1.21rem;
+    color: white;
+}
+@media (max-width: 1000px){
+    #navigation-branch{
+        margin-bottom: 20px;
+        width: 103%;
+    }
+    #navigation-branch .navbar-brand img{
+        height: 130px;
+    }
+    #navigation-branch .navbar-brand{
+        font-size: 3rem;
+    }
+    #navigation-branch .nav-item{
+        font-size: 2.5rem;
+        padding-top: 10px;
+    }
+}
