@@ -1,17 +1,17 @@
 import React from "react";
 import "./ClubsPage.css";
-import DomainNavigation from '../DomainNavigation/DomainNavigation';
-import Footer from '../../Landing/Footer/Footer';
+import DomainNavigation from "../DomainNavigation/DomainNavigation";
+import Footer from "../../Landing/Footer/Footer";
 
 class ClubsPage extends React.Component {
 	componentDidMount() {
 		document.title = "Join our Dasha-Clubs today!";
-        window.scrollTo(0, 0);
+		window.scrollTo(0, 0);
 	}
 	render() {
 		return (
 			<main>
-				<DomainNavigation/>
+				<DomainNavigation />
 				<section id="club-page">
 					<h1>Join Our Clubs!</h1>
 
@@ -19,25 +19,19 @@ class ClubsPage extends React.Component {
 						<div class="col-lg-8 content1">
 							<h3>Code Club</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Perferendis velit in,
-								architecto excepturivoluptas.
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ipsum voluptas numquam
-								voluptate quibusdam aspernatur laborum nam,
-								recusandae animi. Eaque.
-							</p>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur
-								adipisicing elit. Natus, unde libero blanditiis
-								ratione minus voluptate facilis eius
-								accusantium! .
+								This club is more about getting like-minded
+								students together to talk about and perhaps work
+								on exciting coding projects together. We have
+								generalized our club into 4 major coding
+								domains:{" "}
+								<b>
+									Data and AI, Scripting, Development and
+									Competitive Programming.
+								</b>
 							</p>
 							<a
 								target="_blank"
-								href="https://discord.gg/k5pf4erckV"
+								href="https://chat.whatsapp.com/FdJZLJoKwAk9KHvw1Tfuma"
 							>
 								<button class="btn btn-light btn-outline-dark">
 									Join Code Club
@@ -72,25 +66,15 @@ class ClubsPage extends React.Component {
 						<div class="col-lg-8 content2">
 							<h3>Finance Club</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Perferendis velit in,
-								architecto excepturivoluptas.
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ipsum voluptas numquam
-								voluptate quibusdam aspernatur laborum nam,
-								recusandae animi. Eaque.
-							</p>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur
-								adipisicing elit. Natus, unde libero blanditiis
-								ratione minus voluptate facilis eius
-								accusantium! .
+								The objective of the club is to educate the
+								participants about modern day finance, the stock
+								market, corporate finance, money, fintech and
+								the role of financial institutions. Ka-ching 🤑
+								!
 							</p>
 							<a
 								target="_blank"
-								href="https://discord.gg/k5pf4erckV"
+								href="https://chat.whatsapp.com/Lrl47Bss2AU5pJo7GCJP4j"
 							>
 								<button class="btn btn-light btn-outline-dark">
 									Join Finance Club
@@ -105,25 +89,15 @@ class ClubsPage extends React.Component {
 						<div class="col-lg-8 content1">
 							<h3>Design Club</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Perferendis velit in,
-								architecto excepturivoluptas.
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ipsum voluptas numquam
-								voluptate quibusdam aspernatur laborum nam,
-								recusandae animi. Eaque.
-							</p>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur
-								adipisicing elit. Natus, unde libero blanditiis
-								ratione minus voluptate facilis eius
-								accusantium! .
+								Design Club is on a mission to get people
+								involved in design thinking. Whether it's
+								discussing Roman architecture, designing awesome
+								UI renders for apps or designing fashion/tech
+								products, we got you covered! 👛 👗📱
 							</p>
 							<a
 								target="_blank"
-								href="https://discord.gg/k5pf4erckV"
+								href="https://chat.whatsapp.com/LF4h9VAAw4YLRHQMQZNPT2"
 							>
 								<button class="btn btn-light btn-outline-dark">
 									Join Design Club
@@ -158,25 +132,15 @@ class ClubsPage extends React.Component {
 						<div class="col-lg-8 content2">
 							<h3>Space Club</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Perferendis velit in,
-								architecto excepturivoluptas.
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ipsum voluptas numquam
-								voluptate quibusdam aspernatur laborum nam,
-								recusandae animi. Eaque.
-							</p>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur
-								adipisicing elit. Natus, unde libero blanditiis
-								ratione minus voluptate facilis eius
-								accusantium! .
+								Space is for everybody. Our club is the entity
+								devoted to fostering excellence in space
+								activities. We also have included channels for
+								space science and rocket science. To the Moon!
+								🌕 🛸
 							</p>
 							<a
 								target="_blank"
-								href="https://discord.gg/k5pf4erckV"
+								href="https://chat.whatsapp.com/Jw0wJLV9rgPItPkSB4V0BM"
 							>
 								<button class="btn btn-light btn-outline-dark">
 									Join Space Club
@@ -191,25 +155,14 @@ class ClubsPage extends React.Component {
 						<div class="col-lg-8 content1">
 							<h3>Crypto Club</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Perferendis velit in,
-								architecto excepturivoluptas.
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ipsum voluptas numquam
-								voluptate quibusdam aspernatur laborum nam,
-								recusandae animi. Eaque.
-							</p>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur
-								adipisicing elit. Natus, unde libero blanditiis
-								ratione minus voluptate facilis eius
-								accusantium! .
+								This club aims to develop knowledge about the
+								newest topics in the world of blockchain,
+								cryptocurrencies, NFTs and the metaverse. 🟧🔗 |
+								🐕💠 | 🐵 | 🔮
 							</p>
 							<a
 								target="_blank"
-								href="https://discord.gg/k5pf4erckV"
+								href="https://chat.whatsapp.com/LlpUblBk1vt0UtRpkp40IU"
 							>
 								<button class="btn btn-light btn-outline-dark">
 									Join Crypto Club
@@ -244,25 +197,14 @@ class ClubsPage extends React.Component {
 						<div class="col-lg-8 content2">
 							<h3>Gaming Club</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Perferendis velit in,
-								architecto excepturivoluptas.
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ipsum voluptas numquam
-								voluptate quibusdam aspernatur laborum nam,
-								recusandae animi. Eaque.
-							</p>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur
-								adipisicing elit. Natus, unde libero blanditiis
-								ratione minus voluptate facilis eius
-								accusantium! .
+								The club's purpose is to promote the culture of
+								gaming & eSports and explore, play and discuss
+								various game genres such as FPS, role-playing
+								games or open-world games.
 							</p>
 							<a
 								target="_blank"
-								href="https://discord.gg/k5pf4erckV"
+								href="https://chat.whatsapp.com/H4hHcIHGm6RFy99jk3LRS0"
 							>
 								<button class="btn btn-light btn-outline-dark">
 									Join Gaming Club
@@ -277,25 +219,15 @@ class ClubsPage extends React.Component {
 						<div class="col-lg-8 content1">
 							<h3>Book Club</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Perferendis velit in,
-								architecto excepturivoluptas.
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ipsum voluptas numquam
-								voluptate quibusdam aspernatur laborum nam,
-								recusandae animi. Eaque.
-							</p>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur
-								adipisicing elit. Natus, unde libero blanditiis
-								ratione minus voluptate facilis eius
-								accusantium! .
+								Books are our true friends just like our club.
+								Here you can express your opinions, likes
+								dislikes about books and find many more
+								bookworms like you 📖. We also do weekly book
+								club meetups!
 							</p>
 							<a
 								target="_blank"
-								href="https://discord.gg/k5pf4erckV"
+								href="https://chat.whatsapp.com/KBYoPsX57YlIhBdU8H9zCC"
 							>
 								<button class="btn btn-light btn-outline-dark">
 									Join Book Club
@@ -330,25 +262,14 @@ class ClubsPage extends React.Component {
 						<div class="col-lg-8 content2">
 							<h3>Bizniz Club</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Perferendis velit in,
-								architecto excepturivoluptas.
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ipsum voluptas numquam
-								voluptate quibusdam aspernatur laborum nam,
-								recusandae animi. Eaque.
-							</p>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur
-								adipisicing elit. Natus, unde libero blanditiis
-								ratione minus voluptate facilis eius
-								accusantium! .
+								In this club we will learn all about business,
+								marketing, startups, how to raise money, create
+								and sell products & services, and manage their
+								businesses. It's all about business!
 							</p>
 							<a
 								target="_blank"
-								href="https://discord.gg/k5pf4erckV"
+								href="https://chat.whatsapp.com/Kf5REHOWFJm039ul3zVQAH"
 							>
 								<button class="btn btn-light btn-outline-dark">
 									Join Bizniz Club
@@ -361,30 +282,18 @@ class ClubsPage extends React.Component {
 
 					<div class="row">
 						<div class="col-lg-8 content1">
-							<h3>RND Club</h3>
+							<h3>RnD Club</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Perferendis velit in,
-								architecto excepturivoluptas.
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ipsum voluptas numquam
-								voluptate quibusdam aspernatur laborum nam,
-								recusandae animi. Eaque.
-							</p>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur
-								adipisicing elit. Natus, unde libero blanditiis
-								ratione minus voluptate facilis eius
-								accusantium! .
+								This club is all about you tech products nerds!
+								Let's discuss Apple, IBM, Intel, Samsung; or
+								what's new in the world of Linux 🐧.
 							</p>
 							<a
 								target="_blank"
-								href="https://discord.gg/k5pf4erckV"
+								href="https://chat.whatsapp.com/I0TRQC3VxUeLJIozvfjUBJ"
 							>
 								<button class="btn btn-light btn-outline-dark">
-									Join RND Club
+									Join RnD Club
 								</button>
 							</a>
 						</div>
@@ -416,25 +325,14 @@ class ClubsPage extends React.Component {
 						<div class="col-lg-8 content2">
 							<h3>Engg Club</h3>
 							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Perferendis velit in,
-								architecto excepturivoluptas.
-							</p>
-							<p>
-								Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ipsum voluptas numquam
-								voluptate quibusdam aspernatur laborum nam,
-								recusandae animi. Eaque.
-							</p>
-							<p>
-								Lorem, ipsum dolor sit amet consectetur
-								adipisicing elit. Natus, unde libero blanditiis
-								ratione minus voluptate facilis eius
-								accusantium! .
+								If you love physics and engineering, this club
+								is for you. We got you covered in physics,
+								automobiles, electronics, aviation and renewable
+								energy. 🍎🏎️ ⚡ ✈️ ☀️
 							</p>
 							<a
 								target="_blank"
-								href="https://discord.gg/k5pf4erckV"
+								href="https://chat.whatsapp.com/GAHRh6MKi1I35BY2CZCdeN"
 							>
 								<button class="btn btn-light btn-outline-dark">
 									Join Engg Club
@@ -443,7 +341,7 @@ class ClubsPage extends React.Component {
 						</div>
 					</div>
 				</section>
-				<Footer/>
+				<Footer />
 			</main>
 		);
 	}

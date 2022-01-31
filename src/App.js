@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import DiscordComponent from "./Components/DiscordComponent";
 
 import Navigation from "./Components/Landing/Navigation/Navigation";
 import Title from "./Components/Landing/Title/Title";
@@ -13,6 +14,7 @@ import ProductPage from "./Components/SubDomains/Product/ProductPage";
 import TeamPage from "./Components/SubDomains/Team/TeamPage";
 import ClubsPage from "./Components/SubDomains/Clubs/ClubsPage";
 import LogoPage from "./Components/SubDomains/Logo/LogoPage";
+import LogoSample from "./Components/SubDomains/Logo/LogoSample";
 
 class Main extends React.Component {
 	componentDidMount() {
@@ -34,6 +36,7 @@ class Main extends React.Component {
 	}
 }
 
+
 function App() {
 	return (
 		<Routes>
@@ -41,7 +44,9 @@ function App() {
 			<Route path="/products" element={<ProductPage/>} exact />
 			<Route path="/team" element={<TeamPage/>} exact />
 			<Route path="/clubs" element={<ClubsPage/>} exact />
-			<Route path="/logo" element={<LogoPage/>} eaxct />
+			<Route path="/logo" element={<LogoPage/>} exact />
+			<Route path="/logo2" element={<LogoSample/>} exact />
+			<Route path="/discord" element={<DiscordComponent/>} exact />
 		</Routes>
 	);
 }
