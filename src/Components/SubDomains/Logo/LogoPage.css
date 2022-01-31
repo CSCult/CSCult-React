@@ -1,0 +1,59 @@
+/* ------------------------------------Logo Page-------------------------------------- */
+#logo-page{
+    padding: 20px;
+}
+#logo-page .row{
+    width: 100%;
+    margin-left: 20px;
+}
+#logo-page h1{
+    text-align: center;
+    font-size: 4rem; font-weight: 600;
+    padding-top: 20px; padding-bottom: 20px;
+}
+#logo-page h3{
+    font-size: 2rem; font-weight: 400;
+    margin-top: 60px; margin-left: 10px;
+}
+#logo-page p{
+    font-size: 1.2rem; font-weight: 400;
+    padding: 10px;
+}
+#logo-page .logo1{
+    height: 95%;
+    margin-top: 8%; margin-left: 10%;
+}
+#logo-page .logo2{
+    height: 80%;
+    margin-top: 20%; margin-left: 25%;
+}
+@media (max-width: 1000px){
+    #logo-page h1{
+        font-size: 5rem;
+    }
+    #logo-page h3{
+        font-size: 4rem;
+    }
+    #logo-page p{
+        font-size: 2.2rem;
+    }
+    #logo-page .logo1{
+        height: 550px;
+        margin-top: -15px;
+        margin-left: 80px;
+        position: relative; top: 60px; left: 100px;
+    }
+    #logo-page .logo2{
+        height: 460px;
+        margin-top: 100px;
+        margin-left: 250px;
+        margin-bottom: 0;
+        position: relative;
+    }
+    #logo-page .content1{
+        position: relative; top: 30px;
+    }
+    #logo-page .content2{
+        position: relative; top: 50px;
+    }
+}

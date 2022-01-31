@@ -4,7 +4,7 @@ import './Product.css';
 
 function Product() {
   return (
-    <section id="product">
+    <div id="product">
       <h2>Products</h2>
       <div className="row">
         <div className="col-lg-4">
@@ -58,7 +58,7 @@ function Product() {
           </a>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
 
