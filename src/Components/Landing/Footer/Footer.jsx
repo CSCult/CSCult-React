@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import LogoMain from '../../../img/logo-main.png';
 import "./Footer.css";
 
 import FooterImg from "../../../img/connect-footer.png";
@@ -16,7 +16,7 @@ function Footer() {
 					<a href="logo.html">
 						<img
 							className="footer-logo"
-							src="img/logo-main.png"
+							src={LogoMain}
 							alt=""
 						/>
 					</a>

@@ -39,7 +39,7 @@ function Navigation() {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link" href="#event">
+							<a className="nav-link" href="/events">
 								Events
 							</a>
 						</li>
