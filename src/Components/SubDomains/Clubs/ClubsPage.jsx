@@ -30,7 +30,7 @@ class ClubsPage extends React.Component {
 								</b>
 							</p>
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://chat.whatsapp.com/FdJZLJoKwAk9KHvw1Tfuma"
 							>
 								<button class="btn btn-light btn-outline-dark">
@@ -40,7 +40,7 @@ class ClubsPage extends React.Component {
 						</div>
 						<div class="col-lg-3">
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://discord.gg/k5pf4erckV"
 							>
 								<img
@@ -54,7 +54,7 @@ class ClubsPage extends React.Component {
 					<div class="row">
 						<div class="col-lg-3">
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://discord.gg/k5pf4erckV"
 							>
 								<img
@@ -73,7 +73,7 @@ class ClubsPage extends React.Component {
 								!
 							</p>
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://chat.whatsapp.com/Lrl47Bss2AU5pJo7GCJP4j"
 							>
 								<button class="btn btn-light btn-outline-dark">
@@ -96,7 +96,7 @@ class ClubsPage extends React.Component {
 								products, we got you covered! 👛 👗📱
 							</p>
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://chat.whatsapp.com/LF4h9VAAw4YLRHQMQZNPT2"
 							>
 								<button class="btn btn-light btn-outline-dark">
@@ -106,7 +106,7 @@ class ClubsPage extends React.Component {
 						</div>
 						<div class="col-lg-3">
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://discord.gg/k5pf4erckV"
 							>
 								<img
@@ -120,7 +120,7 @@ class ClubsPage extends React.Component {
 					<div class="row">
 						<div class="col-lg-3">
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://discord.gg/k5pf4erckV"
 							>
 								<img
@@ -139,7 +139,7 @@ class ClubsPage extends React.Component {
 								🌕 🛸
 							</p>
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://chat.whatsapp.com/Jw0wJLV9rgPItPkSB4V0BM"
 							>
 								<button class="btn btn-light btn-outline-dark">
@@ -161,7 +161,7 @@ class ClubsPage extends React.Component {
 								🐕💠 | 🐵 | 🔮
 							</p>
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://chat.whatsapp.com/LlpUblBk1vt0UtRpkp40IU"
 							>
 								<button class="btn btn-light btn-outline-dark">
@@ -171,7 +171,7 @@ class ClubsPage extends React.Component {
 						</div>
 						<div class="col-lg-3">
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://discord.gg/k5pf4erckV"
 							>
 								<img
@@ -185,7 +185,7 @@ class ClubsPage extends React.Component {
 					<div class="row">
 						<div class="col-lg-3">
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://discord.gg/k5pf4erckV"
 							>
 								<img
@@ -203,7 +203,7 @@ class ClubsPage extends React.Component {
 								games or open-world games.
 							</p>
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://chat.whatsapp.com/H4hHcIHGm6RFy99jk3LRS0"
 							>
 								<button class="btn btn-light btn-outline-dark">
@@ -226,7 +226,7 @@ class ClubsPage extends React.Component {
 								club meetups!
 							</p>
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://chat.whatsapp.com/KBYoPsX57YlIhBdU8H9zCC"
 							>
 								<button class="btn btn-light btn-outline-dark">
@@ -236,7 +236,7 @@ class ClubsPage extends React.Component {
 						</div>
 						<div class="col-lg-3">
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://discord.gg/k5pf4erckV"
 							>
 								<img
@@ -250,7 +250,7 @@ class ClubsPage extends React.Component {
 					<div class="row">
 						<div class="col-lg-3">
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://discord.gg/k5pf4erckV"
 							>
 								<img
@@ -268,7 +268,7 @@ class ClubsPage extends React.Component {
 								businesses. It's all about business!
 							</p>
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://chat.whatsapp.com/Kf5REHOWFJm039ul3zVQAH"
 							>
 								<button class="btn btn-light btn-outline-dark">
@@ -289,7 +289,7 @@ class ClubsPage extends React.Component {
 								what's new in the world of Linux 🐧.
 							</p>
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://chat.whatsapp.com/I0TRQC3VxUeLJIozvfjUBJ"
 							>
 								<button class="btn btn-light btn-outline-dark">
@@ -299,7 +299,7 @@ class ClubsPage extends React.Component {
 						</div>
 						<div class="col-lg-3">
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://discord.gg/k5pf4erckV"
 							>
 								<img
@@ -313,7 +313,7 @@ class ClubsPage extends React.Component {
 					<div class="row">
 						<div class="col-lg-3">
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://discord.gg/k5pf4erckV"
 							>
 								<img
@@ -331,7 +331,7 @@ class ClubsPage extends React.Component {
 								energy. 🍎🏎️ ⚡ ✈️ ☀️
 							</p>
 							<a
-								target="_blank"
+								target="_blank" rel='noreferrer'
 								href="https://chat.whatsapp.com/GAHRh6MKi1I35BY2CZCdeN"
 							>
 								<button class="btn btn-light btn-outline-dark">

@@ -1,0 +1,81 @@
+/* ------------------------------------Club Page-------------------------------------- */
+#EventPage{
+    padding: 30px 10px 10px 10px;
+}
+#EventPage p {
+    font-size: 1.5rem;
+}
+#EventPage h1{
+    text-align: center;
+    font-size: 4rem; font-weight: 600;
+    margin-top: 20px; margin-bottom: 100px;
+}
+#EventPage .row{
+    margin: 50px 0 80px 70px;
+}
+#EventPage h3{
+    font-size: 2rem; font-weight: 600;
+    padding-bottom: 15px;
+}
+#EventPage h3{
+	background: linear-gradient(
+		45deg,
+		#df41ff,
+		#34d0ff 30%,
+		#6054ff 60%,
+		#fc34fc
+	);
+	width: fit-content;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+#EventPage img{
+    width: 310px;
+    border-radius: 10%; border: solid 2px white;
+}
+#EventPage .content2{
+    margin-left: 60px;
+}
+#EventPage button{
+    font-weight: 600;
+    width: 30%;
+    margin-top: 10px;
+}
+#EventPage button:hover{
+    border-color: white; border-width: 1px;
+}
+#EventPage hr{
+    display: none;
+}
+@media (max-width: 1000px){
+    #EventPage h1{
+        font-size: 5rem; margin-bottom: 60px;
+    }
+    #EventPage .row{
+        margin-top: 0;
+    }
+    #EventPage h3{
+        font-size: 5rem;
+        margin-top: 60px;
+    }
+    #EventPage p{
+        font-size: 2rem;
+    }
+    #EventPage img{
+        width: 570px;
+        margin-left: 16%;
+    }
+    #EventPage button{
+        font-size: 2.8rem; font-weight: 600;
+        width: 80%;
+        margin: 50px 0 100px;
+    }
+    #EventPage .content2{
+        margin-left: 0;
+    }
+    #EventPage hr{
+        display: inline-block;
+        border: white 3px solid; width: 98%;
+        position: relative; bottom: 30px; left: 3%;
+    }
+}

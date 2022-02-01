@@ -197,5 +197,21 @@ body{
         position: relative; bottom: 30px; left: 3%;
     }
 }
+/* -----------------------------------Popup-------------------------------------------- */
+
+.Popup{
+    height: 70px; width: 250px;
+    border-radius: 10px;
+    position: fixed; bottom: 0px; left: 0px;
+    margin: 0 1rem 1.5rem 78%;
+    z-index: 3;
+}
+.Popup h1{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.Popup p{
+    font-size: 1rem;
+}
 
 /* ------------------------------------End-------------------------------------------- */

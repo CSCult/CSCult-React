@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Link } from "react-router-dom";
 import DiscordComponent from "./Components/DiscordComponent";
 
 import Navigation from "./Components/Landing/Navigation/Navigation";
@@ -15,6 +15,21 @@ import TeamPage from "./Components/SubDomains/Team/TeamPage";
 import ClubsPage from "./Components/SubDomains/Clubs/ClubsPage";
 import LogoPage from "./Components/SubDomains/Logo/LogoPage";
 import LogoSample from "./Components/SubDomains/Logo/LogoSample";
+import EventPage from './Components/SubDomains/Event/EventPage';
+
+
+function Popup(){
+	return (
+    <Link to="/events">
+      <button className="btn btn-lg btn-success btn-outline-light Popup">
+        <div>
+          <h1><span>🚀</span>UPCOMING EVENT !</h1>
+          <p>Learn More</p>
+        </div>
+      </button>
+    </Link>
+  );
+}
 
 class Main extends React.Component {
 	componentDidMount() {
@@ -26,6 +41,7 @@ class Main extends React.Component {
 			<div className="app">
 				<Navigation />
 				<Title />
+				<Popup />
 				<About />
 				<Community />
 				<Event />
@@ -47,6 +63,7 @@ function App() {
 			<Route path="/logo" element={<LogoPage/>} exact />
 			<Route path="/logo2" element={<LogoSample/>} exact />
 			<Route path="/discord" element={<DiscordComponent/>} exact />
+			<Route path="/events" element={<EventPage/>} exact />
 		</Routes>
 	);
 }
