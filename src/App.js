@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route, Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import DiscordComponent from "./Components/DiscordComponent";
 
 import Navigation from "./Components/Landing/Navigation/Navigation";
@@ -15,20 +16,21 @@ import TeamPage from "./Components/SubDomains/Team/TeamPage";
 import ClubsPage from "./Components/SubDomains/Clubs/ClubsPage";
 import LogoPage from "./Components/SubDomains/Logo/LogoPage";
 import LogoSample from "./Components/SubDomains/Logo/LogoSample";
-import EventPage from './Components/SubDomains/Event/EventPage';
+import EventPage from "./Components/SubDomains/Event/EventPage";
 
-
-function Popup(){
+function Popup() {
 	return (
-    <Link to="/events">
-      <button className="btn btn-lg btn-success btn-outline-light Popup">
-        <div>
-          <h1><span>🚀</span>UPCOMING EVENT !</h1>
-          <p>Learn More</p>
-        </div>
-      </button>
-    </Link>
-  );
+		<Link to="/events">
+			<button className="btn btn-lg btn-success btn-outline-light Popup">
+				<div>
+					<h1>
+						<span>🚀</span>UPCOMING EVENT !
+					</h1>
+					<p>Learn More</p>
+				</div>
+			</button>
+		</Link>
+	);
 }
 
 class Main extends React.Component {
@@ -39,6 +41,60 @@ class Main extends React.Component {
 	render() {
 		return (
 			<div className="app">
+				<Helmet>
+					{/* <!-- Primary Meta Tags --> */}
+					<title>
+						CSCult - We are building Indore's largest Internet
+						community!
+					</title>
+					<meta
+						name="keywords"
+						content="cscult, cscult community, saud hashmi, cs cult, cs-cult, indore's largest community, indore communities, indore community, edtech startup, indore edtech, indore startup, gamification"
+					/>
+					<meta
+						name="title"
+						content="CSCult - We are building Indore's largest Internet community!"
+					/>
+					<meta
+						name="description"
+						content="CSCult is a community of individuals and learners from different backgrounds, who want to spend their time learning, innovating & working on new ideas."
+					/>
+
+					{/* <!-- Open Graph / Facebook --> */}
+					<meta property="og:type" content="website" />
+					<meta property="og:url" content="https://cscult.in" />
+					<meta
+						property="og:title"
+						content="CSCult - We are building Indore's largest Internet community!"
+					/>
+					<meta
+						property="og:description"
+						content="CSCult is a community of individuals and learners from different backgrounds, who want to spend their time learning, innovating & working on new ideas."
+					/>
+					<meta
+						property="og:image"
+						content="https://cdn.discordapp.com/attachments/877930443473846324/897025623690711080/cscult-embed.png"
+					/>
+
+					{/* <!-- Twitter --> */}
+					<meta
+						property="twitter:card"
+						content="summary_large_image"
+					/>
+					<meta property="twitter:url" content="https://cscult.in" />
+					<meta
+						property="twitter:title"
+						content="CSCult - We are building Indore's largest Internet community!"
+					/>
+					<meta
+						property="twitter:description"
+						content="CSCult is a community of individuals and learners from different backgrounds, who want to spend their time learning, innovating & working on new ideas."
+					/>
+					<meta
+						property="twitter:image"
+						content="https://cdn.discordapp.com/attachments/877930443473846324/897025623690711080/cscult-embed.png"
+					/>
+				</Helmet>
 				<Navigation />
 				<Title />
 				<Popup />
@@ -52,18 +108,17 @@ class Main extends React.Component {
 	}
 }
 
-
 function App() {
 	return (
 		<Routes>
-			<Route path="/" element={<Main/>} exact />
-			<Route path="/products" element={<ProductPage/>} exact />
-			<Route path="/team" element={<TeamPage/>} exact />
-			<Route path="/clubs" element={<ClubsPage/>} exact />
-			<Route path="/logo" element={<LogoPage/>} exact />
-			<Route path="/logo2" element={<LogoSample/>} exact />
-			<Route path="/discord" element={<DiscordComponent/>} exact />
-			<Route path="/events" element={<EventPage/>} exact />
+			<Route path="/" element={<Main />} exact />
+			<Route path="/products" element={<ProductPage />} exact />
+			<Route path="/team" element={<TeamPage />} exact />
+			<Route path="/clubs" element={<ClubsPage />} exact />
+			<Route path="/logo" element={<LogoPage />} exact />
+			<Route path="/logo2" element={<LogoSample />} exact />
+			<Route path="/discord" element={<DiscordComponent />} exact />
+			<Route path="/events" element={<EventPage />} exact />
 		</Routes>
 	);
 }
