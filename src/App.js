@@ -18,6 +18,8 @@ import LogoPage from "./Components/SubDomains/Logo/LogoPage";
 import LogoSample from "./Components/SubDomains/Logo/LogoSample";
 import EventPage from "./Components/SubDomains/Event/EventPage";
 
+let MainEmbedURL = "https://media.discordapp.net/attachments/923793151477563422/938387671804432394/embed-main.png";
+
 function Popup() {
 	return (
 		<Link to="/events">
@@ -73,7 +75,7 @@ class Main extends React.Component {
 					/>
 					<meta
 						property="og:image"
-						content="https://cdn.discordapp.com/attachments/877930443473846324/897025623690711080/cscult-embed.png"
+						content={MainEmbedURL}
 					/>
 
 					{/* <!-- Twitter --> */}
@@ -92,7 +94,7 @@ class Main extends React.Component {
 					/>
 					<meta
 						property="twitter:image"
-						content="https://cdn.discordapp.com/attachments/877930443473846324/897025623690711080/cscult-embed.png"
+						content={MainEmbedURL}
 					/>
 				</Helmet>
 				<Navigation />

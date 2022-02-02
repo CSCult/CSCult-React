@@ -6,6 +6,8 @@ import Footer from "../../Landing/Footer/Footer";
 import OldEvents from "../../Landing/Event/Event";
 import { Helmet } from "react-helmet";
 
+let EventsEmbedURL = "https://media.discordapp.net/attachments/923793151477563422/937936822078701608/Space_Club_LinkedIn_Event_Poster.png"
+
 class EventPage extends React.Component {
 	componentDidMount() {
 		window.scrollTo(0, 0);
@@ -40,7 +42,7 @@ class EventPage extends React.Component {
 					/>
 					<meta
 						property="og:image"
-						content="https://media.discordapp.net/attachments/923793151477563422/937936822078701608/Space_Club_LinkedIn_Event_Poster.png"
+						content={EventsEmbedURL}
 					/>
 					{/* <!-- Twitter --> */}
 					<meta
@@ -58,7 +60,7 @@ class EventPage extends React.Component {
 					/>
 					<meta
 						property="twitter:image"
-						content="https://media.discordapp.net/attachments/923793151477563422/937936822078701608/Space_Club_LinkedIn_Event_Poster.png"
+						content={EventsEmbedURL}
 					/>
 				</Helmet>
 				<DomainNavigation />
