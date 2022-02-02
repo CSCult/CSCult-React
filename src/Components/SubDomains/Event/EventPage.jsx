@@ -29,7 +29,6 @@ class EventPage extends React.Component {
 						name="description"
 						content="We at CSCult bring you events that NO ONE brings. We focus on quality of events, not quantity of events. Our events are short-spanned, well-planned and interactive!"
 					/>
-					{/* <!-- Open Graph / Facebook --> */}
 					<meta property="og:type" content="website" />
 					<meta property="og:url" content="https://cscult.in" />
 					<meta
@@ -45,7 +44,6 @@ class EventPage extends React.Component {
 						itemProp="image"
 						content={EventsEmbedURL}
 					/>
-					{/* <!-- Twitter --> */}
 					<meta
 						property="twitter:card"
 						content="summary_large_image"

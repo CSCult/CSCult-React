@@ -44,7 +44,6 @@ class Main extends React.Component {
 		return (
 			<div className="app">
 				<Helmet>
-					{/* <!-- Primary Meta Tags --> */}
 					<title>
 						CSCult - We are building Indore's largest Internet
 						community!
@@ -62,7 +61,6 @@ class Main extends React.Component {
 						content="CSCult is a community of individuals and learners from different backgrounds, who want to spend their time learning, innovating & working on new ideas."
 					/>
 
-					{/* <!-- Open Graph / Facebook --> */}
 					<meta property="og:type" content="website" />
 					<meta property="og:url" content="https://cscult.in" />
 					<meta
@@ -79,7 +77,6 @@ class Main extends React.Component {
 						content={MainEmbedURL}
 					/>
 
-					{/* <!-- Twitter --> */}
 					<meta
 						property="twitter:card"
 						content="summary_large_image"
