@@ -75,6 +75,7 @@ class Main extends React.Component {
 					/>
 					<meta
 						property="og:image"
+						itemProp="image"
 						content={MainEmbedURL}
 					/>
 
@@ -94,6 +95,7 @@ class Main extends React.Component {
 					/>
 					<meta
 						property="twitter:image"
+						itemProp="image"
 						content={MainEmbedURL}
 					/>
 				</Helmet>
