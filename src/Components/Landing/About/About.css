@@ -24,6 +24,25 @@
 	}
 }
 @media (max-width: 1000px){
+    #about{
+        position: relative; right: 5px;
+        width: 95%;
+    }
+    .about-content{
+        padding: 0;
+    }
+    #about .about-content h2{
+        font-size: 2.5rem;
+    }
+    #about .about-content p{
+        font-size: 1rem; padding-bottom: 20px;
+    }
+    #about img{
+        height: 90%;
+        margin-top: 2rem; margin-bottom: 0.5rem;
+    }
+}
+/* @media (max-width: 1000px){
     #about .row{
         margin-right: 0;
     }
@@ -37,4 +56,4 @@
         height: 100%;
         margin: 40px 0 200px 200px;
     }
-}
+} */
