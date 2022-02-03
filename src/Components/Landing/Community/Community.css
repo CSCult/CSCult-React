@@ -29,6 +29,27 @@
     margin-top: 20px; margin-left: 130px;
 }
 @media (max-width: 1000px){
+    #community .row{
+        margin: 0;
+    }
+    #community .community-content h2{
+        font-size: 2.5rem; margin-top: 2rem;
+    }
+    #community .join-discord h3{
+        font-size: 1.5rem;
+    }
+    #community .community-content p{
+        font-size: 1rem; padding-bottom: 20px;
+    }
+    #community .img1{
+        width: 90%; padding-bottom: 50px;
+    }
+    #community .join-discord{
+        margin-top: 20px; margin-left: 20px;
+        text-align: center;
+    }
+}
+/* @media (max-width: 1000px){
     #community .community-content{
         margin-right: 0;
     }
@@ -45,4 +66,4 @@
     #community .img2{
         width: 40%; margin-left: 120px; padding-top: 50px;
     }
-}
+} */

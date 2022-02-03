@@ -3,62 +3,6 @@ body{
     background-color: #252525; color: white;
 }
 
-/* ------------------------------------Navigation Bar (Mobile)------------------------ */
-#navigation-mobile{
-    position: absolute;
-}
-#navigation-mobile .nav-img1{
-    width: 140%;
-    margin-left: 10px;
-}
-#navigation-mobile .nav-img2{
-    width: 70%;
-    margin: 100px 0 60px 40px;
-}
-#navigation-mobile .toggle-btn{
-    position: relative; 
-    bottom: 95px; left: 180%;
-}
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 1s;
-    padding-top: 60px;
-}
-  
-.sidenav a {
-    padding-left: 50px; padding-bottom: 40px;
-    text-decoration: none;
-    font-size: 50px;
-    color: lightgrey;
-    display: block;
-    transition: 0.3s;
-}
-  
-.sidenav a:hover {
-    color: white;
-}
-  
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 100px;
-    margin-left: 50px;
-}
-  
-@media (min-width: 1000px){
-    #navigation-mobile{
-        display: none;
-    }
-}
-
 /* ------------------------------------Logo Page-------------------------------------- */
 #logo-page{
     padding: 20px;
@@ -212,6 +156,19 @@ body{
 }
 .Popup p{
     font-size: 1rem;
+}
+@media (max-width: 1000px){
+    .Popup{
+        position: fixed; margin: 0 0 8rem 30%;
+        height: 60px;
+    }
+    .Popup h1{
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    .Popup p{
+        font-size: 0.9rem;
+    }
 }
 
 /* ------------------------------------End-------------------------------------------- */

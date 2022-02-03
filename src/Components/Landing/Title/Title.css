@@ -24,7 +24,24 @@
 #title .title-content button:hover{
     color: #04293A; background-color: lightgrey;
 }
-@media (min-width: 1358px){
+@media (max-width: 1000px){
+    #title .title-content{
+        top: 3.8rem; left: 0.5rem; 
+    }
+    #title .title-content h1{
+        font-size: 1rem; font-weight: 600;
+    }
+    #title .title-content p{
+        color: white;
+        font-size: 0.4rem; font-weight: 400; letter-spacing: 2px;
+        margin-bottom: 0;
+    }
+    #title .title-content button{
+        font-size: 0.8rem; width: 45%;
+        padding: 0;
+    }
+}
+/* @media (min-width: 1358px){
     #title .title-content{
         top: 17rem; left: 2rem;
     }
@@ -48,4 +65,4 @@
     #title .title-content button{
         font-size: 2rem; width: 50%;
     }
-}
+} */
