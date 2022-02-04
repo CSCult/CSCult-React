@@ -107,7 +107,7 @@ class EventPage extends React.Component {
 							<a
 								target="_blank"
 								rel="noreferrer"
-								href="https://us05web.zoom.us/j/87048877691?pwd=SitaYXBtbkpFZGx2T0lYUEpOVmlUdz09"
+								href="https://us05web.zoom.us/j/5710962757?pwd=M1VZbmJKYnFNcHlXSm1WQk43SDc4UT09"
 							>
 								<button className="btn btn-lg btn-primary btn-outline-light">
 									Join Event
