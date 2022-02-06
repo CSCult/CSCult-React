@@ -6,6 +6,8 @@ import Footer from "../../Landing/Footer/Footer";
 import OldEvents from "../../Landing/Event/Event";
 import { Helmet } from "react-helmet";
 
+let EventsEmbedURL = "https://media.discordapp.net/attachments/923793151477563422/937936822078701608/Space_Club_LinkedIn_Event_Poster.png";
+
 class EventPage extends React.Component {
 	componentDidMount() {
 		window.scrollTo(0, 0);
@@ -16,6 +18,10 @@ class EventPage extends React.Component {
 				<Helmet>
 					<title>Our Exciting Events! | CSCult</title>
 					<meta
+						name="keywords"
+						content="space club, space event, spaceship, cscult space club, future of humanity, mars, colonization, kardashev scale, multiplanetary species, astronomy, space, universe, astrophysics, events, online events, cscult events, community events, free events, certificate events"
+					/>
+					<meta
 						name="title"
 						content="Our Exciting Events! | CSCult"
 					/>
@@ -23,7 +29,6 @@ class EventPage extends React.Component {
 						name="description"
 						content="We at CSCult bring you events that NO ONE brings. We focus on quality of events, not quantity of events. Our events are short-spanned, well-planned and interactive!"
 					/>
-					{/* <!-- Open Graph / Facebook --> */}
 					<meta property="og:type" content="website" />
 					<meta property="og:url" content="https://cscult.in" />
 					<meta
@@ -36,7 +41,26 @@ class EventPage extends React.Component {
 					/>
 					<meta
 						property="og:image"
-						content="https://media.discordapp.net/attachments/923793151477563422/937936822078701608/Space_Club_LinkedIn_Event_Poster.png"
+						itemProp="image"
+						content={EventsEmbedURL}
+					/>
+					<meta
+						property="twitter:card"
+						content="summary_large_image"
+					/>
+					<meta property="twitter:url" content="https://cscult.in" />
+					<meta
+						property="twitter:title"
+						content="CSCult - We are building Indore's largest Internet community!"
+					/>
+					<meta
+						property="twitter:description"
+						content="CSCult is a community of individuals and learners from different backgrounds, who want to spend their time learning, innovating & working on new ideas."
+					/>
+					<meta
+						property="twitter:image"
+						itemProp="image"
+						content={EventsEmbedURL}
 					/>
 				</Helmet>
 				<DomainNavigation />
@@ -80,7 +104,6 @@ class EventPage extends React.Component {
 								AM <br />
 								📍Venue : Zoom
 							</p>
-							<button className="btn btn-danger btn-lg btn-outline-light">Event Completed</button>
 						</div>
 					</div>
 				</div>

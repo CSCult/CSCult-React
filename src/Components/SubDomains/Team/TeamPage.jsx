@@ -21,6 +21,7 @@ class Team extends React.Component {
 					<div>
 						<h1>The team that makes it all possible!</h1>
 					</div>
+					{/* Leadership - 4 */}
 					<div className="row">
 						<div className="col-lg-3 team-member">
 							<img
@@ -83,7 +84,15 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a target="_blank" rel='noreferrer' href="https://github.com/SuperbSaud"><i className="fab fa-github fa-lg"></i></a></li> */}
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://github.com/SuperbSaud"
+									>
+										<i className="fab fa-github fa-lg"></i>
+									</a>
+								</li>
 							</ul>
 						</div>
 						<div className="col-lg-3 team-member">
@@ -134,8 +143,6 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a href=""><img className="social-icon" src={twitter} alt="" /></a></li>
-                    <li><a href=""><i className="fab fa-github fa-lg"></i></a></li> */}
 							</ul>
 						</div>
 						<div className="col-lg-3 team-member">
@@ -186,8 +193,6 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a href=""><img className="social-icon" src={twitter} alt="" /></a></li>
-                    <li><a href=""><i className="fab fa-github fa-lg"></i></a></li> */}
 							</ul>
 						</div>
 						<div className="col-lg-3 team-member">
@@ -251,12 +256,130 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a target="_blank" rel='noreferrer' href="https://github.com/SujalSamai"><i className="fab fa-github fa-lg"></i></a></li> */}
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://github.com/SujalSamai"
+									>
+										<i className="fab fa-github fa-lg"></i>
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
 
+					{/* Moderators - 2, M/B/A Team - 2 */}
 					<div className="row">
+						<div className="col-lg-3 team-member">
+							<img
+								className="member-img"
+								src="https://cdn.discordapp.com/attachments/879347528368287775/896777113120702534/ME.jpg"
+								alt=""
+							/>
+							<h2>Shreytam Goyal</h2>
+							<h3>Moderator/Podcast Team</h3>
+							<ul>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="mail:shreytamgoyal@gmail.com"
+									>
+										<img
+											className="social-icon"
+											src={email}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://instagram.com/shreytamgoyall"
+									>
+										<img
+											className="social-icon"
+											src={instagram}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://linkedin.com/in/shreytam-goyal-19595b227"
+									>
+										<img
+											className="social-icon"
+											src={linkedin}
+											alt=""
+										/>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div className="col-lg-3 team-member">
+							<img
+								className="member-img"
+								src="https://media.discordapp.net/attachments/923793151477563422/938290559913697310/bf3b198a-5b7a-4e39-9a22-b84b82c8bf9a.png"
+								alt=""
+							/>
+							<h2>Abhikalp Arya</h2>
+							<h3>Moderator</h3>
+							<ul>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="mail:abhikalp.arya@gmail.com"
+									>
+										<img
+											className="social-icon"
+											src={email}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://www.instagram.com/abhikalp.arya/"
+									>
+										<img
+											className="social-icon"
+											src={instagram}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://www.linkedin.com/in/abhikalp-arya-7179431b9/"
+									>
+										<img
+											className="social-icon"
+											src={linkedin}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/AbhikalpArya">
+										<img
+											className="social-icon"
+											src={twitter}
+											alt=""
+										/>
+									</a>
+								</li>
+							</ul>
+						</div>
 						<div className="col-lg-3 team-member">
 							<img
 								className="member-img"
@@ -305,8 +428,6 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a href=""><img className="social-icon" src={twitter} alt="" /></a></li>
-                    <li><a href=""><i className="fab fa-github fa-lg"></i></a></li> */}
 							</ul>
 						</div>
 						<div className="col-lg-3 team-member">
@@ -370,9 +491,11 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a href=""><i className="fab fa-github fa-lg"></i></a></li> */}
 							</ul>
 						</div>
+					</div>
+
+					<div className="row">
 						<div className="col-lg-3 team-member">
 							<img
 								className="member-img"
@@ -421,8 +544,12 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a href=""><img className="social-icon" src={twitter} alt="" /></a></li>
-                    <li><a href="https://github.com/manansoni77"><i className="fab fa-github fa-lg"></i></a></li> */}
+
+								<li>
+									<a href="https://github.com/manansoni77">
+										<i className="fab fa-github fa-lg"></i>
+									</a>
+								</li>
 							</ul>
 						</div>
 						<div className="col-lg-3 team-member">
@@ -486,12 +613,8 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a href=""><i className="fab fa-github fa-lg"></i></a></li> */}
 							</ul>
 						</div>
-					</div>
-
-					<div className="row">
 						<div className="col-lg-3 team-member">
 							<img
 								className="member-img"
@@ -540,8 +663,6 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a href=""><img className="social-icon" src={twitter} alt="" /></a></li>
-                    <li><a href=""><i className="fab fa-github fa-lg"></i></a></li> */}
 							</ul>
 						</div>
 						<div className="col-lg-3 team-member">
@@ -605,9 +726,10 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a href=""><i className="fab fa-github fa-lg"></i></a></li> */}
 							</ul>
 						</div>
+					</div>
+					<div className="row">
 						<div className="col-lg-3 team-member">
 							<img
 								className="member-img"
@@ -656,8 +778,6 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a href=""><img className="social-icon" src={twitter} alt="" /></a></li>
-                    <li><a href=""><i className="fab fa-github fa-lg"></i></a></li>  */}
 							</ul>
 						</div>
 						<div className="col-lg-3 team-member">
@@ -721,7 +841,248 @@ class Team extends React.Component {
 										/>
 									</a>
 								</li>
-								{/* <li><a target="_blank" rel='noreferrer' href="https://github.com/mradul-gpt"><i className="fab fa-github fa-lg"></i></a></li> */}
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://github.com/mradul-gpt"
+									>
+										<i className="fab fa-github fa-lg"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div className="col-lg-3 team-member">
+							<img
+								className="member-img"
+								src="https://media.discordapp.net/attachments/923793151477563422/938362691389632532/madhavi.png?width=428&height=413"
+								alt=""
+							/>
+							<h2>Madhavi Gupta</h2>
+							<h3>Content Creation Executive</h3>
+							<ul>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="mail:madhavigupta1225@gmail.com"
+									>
+										<img
+											className="social-icon"
+											src={email}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://www.instagram.com/madhaviigupta/"
+									>
+										<img
+											className="social-icon"
+											src={instagram}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://www.linkedin.com/in/madhavi-gupta-6b9358219/"
+									>
+										<img
+											className="social-icon"
+											src={linkedin}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://twitter.com/Madhaviig1"
+									>
+										<img
+											className="social-icon"
+											src={twitter}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://github.com/MadhaviGupta"
+									>
+										<i className="fab fa-github fa-lg"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div className="col-lg-3 team-member">
+							<img
+								className="member-img"
+								src="https://media.discordapp.net/attachments/923793151477563422/938362690823405568/dhairya.png?width=413&height=413"
+								alt=""
+							/>
+							<h2>Dhairya Saatoliya</h2>
+							<h3>Graphic Design Executive</h3>
+							<ul>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="mail:jdhairya804@gmail.com"
+									>
+										<img
+											className="social-icon"
+											src={email}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://www.instagram.com/dhairya.saatoliya"
+									>
+										<img
+											className="social-icon"
+											src={instagram}
+											alt=""
+										/>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div className="row">
+						<div className="col-lg-6 team-member">
+							<img className="member-img" src="https://media.discordapp.net/attachments/923793151477563422/938378963716276234/avni.jpg?width=413&height=413" alt="" />
+							<h2>Avni Gour</h2>
+							<h3>Graphic Design Executive</h3>
+							<ul>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="mail:gouravnigour@gmail.com"
+									>
+										<img
+											className="social-icon"
+											src={email}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://instagram.com/av.niii_"
+									>
+										<img
+											className="social-icon"
+											src={instagram}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://www.linkedin.com/in/avni-gour-aa2375201"
+									>
+										<img
+											className="social-icon"
+											src={linkedin}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://twitter.com/avniii_Gour"
+									>
+										<img
+											className="social-icon"
+											src={twitter}
+											alt=""
+										/>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div className="col-lg-6 team-member">
+							<img
+								className="member-img"
+								src="https://media.discordapp.net/attachments/923793151477563422/938362690538176532/abhishek.png"
+								alt=""
+							/>
+							<h2>Abhishek Sharawat</h2>
+							<h3>Content Creation Executive</h3>
+							<ul>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="mail:sharawat4491@gmail.com"
+									>
+										<img
+											className="social-icon"
+											src={email}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://www.instagram.com/sharawat4491/"
+									>
+										<img
+											className="social-icon"
+											src={instagram}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="www.linkedin.com/in/abhishek-sharawat-a74867205"
+									>
+										<img
+											className="social-icon"
+											src={linkedin}
+											alt=""
+										/>
+									</a>
+								</li>
+								<li>
+									<a
+										target="_blank"
+										rel="noreferrer"
+										href="https://twitter.com/sharawat4491"
+									>
+										<img
+											className="social-icon"
+											src={twitter}
+											alt=""
+										/>
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
