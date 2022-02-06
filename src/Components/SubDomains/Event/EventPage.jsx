@@ -80,15 +80,7 @@ class EventPage extends React.Component {
 								AM <br />
 								📍Venue : Zoom
 							</p>
-							<a
-								target="_blank"
-								rel="noreferrer"
-								href="https://us05web.zoom.us/j/87048877691?pwd=SitaYXBtbkpFZGx2T0lYUEpOVmlUdz09"
-							>
-								<button className="btn btn-lg btn-primary btn-outline-light">
-									Join Event
-								</button>
-							</a>
+							<button className="btn btn-danger btn-lg btn-outline-light">Event Completed</button>
 						</div>
 					</div>
 				</div>

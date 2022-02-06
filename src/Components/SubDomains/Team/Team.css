@@ -39,6 +39,22 @@
     color: white;
 }
 @media (max-width: 1000px){
+    #team{
+        text-align: center;
+        padding: 60px 0 0 30px;
+    }
+    #team h1{
+        font-size: 2.5rem;
+        margin-bottom: 40px;
+    }
+    #team .member-img{
+        height: 300px; width: 300px;
+    }
+    #team .team-member{
+        margin-top: 30px;
+    }
+}
+/* @media (max-width: 1000px){
     #team .member-img{
         height: 450px; width: 450px;
         margin-top: 10px;
@@ -56,4 +72,4 @@
     #team .social-icon{
         height: 50px; margin: 0 10px;
     }
-}
+} */

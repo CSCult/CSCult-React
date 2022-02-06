@@ -20,19 +20,3 @@
     font-size: 1.21rem;
     color: white;
 }
-@media (max-width: 1000px){
-    #navigation-branch{
-        margin-bottom: 20px;
-        width: 103%;
-    }
-    #navigation-branch .navbar-brand img{
-        height: 130px;
-    }
-    #navigation-branch .navbar-brand{
-        font-size: 3rem;
-    }
-    #navigation-branch .nav-item{
-        font-size: 2.5rem;
-        padding-top: 10px;
-    }
-}

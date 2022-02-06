@@ -1,11 +1,24 @@
+/* ------------------------------------Landing Navigation---------------------------- */
+
+@media (min-width: 1000px){
+    #landing-navigation{
+        display: none;
+    }
+}
+@media (max-width: 1000px){
+    #landing-navigation img{
+        height: 50px;
+    } 
+}
 /* ------------------------------------Title Section---------------------------------- */
 
 #title .main-img{
     width: 100%;
     z-index: -1;
+    position: absolute;
 }
 #title .title-content{
-    position: absolute; top: 13rem; left: 2rem;
+    position: relative; top: 10rem; left: 2rem;
     width: 50%;
 }
 #title .title-content h1{
@@ -26,10 +39,10 @@
 }
 @media (max-width: 1000px){
     #title .title-content{
-        top: 3.8rem; left: 0.5rem; 
+        top: 4.2rem; left: 0.5rem; 
     }
     #title .title-content h1{
-        font-size: 1rem; font-weight: 600;
+        font-size: 0.9rem; font-weight: 600;
     }
     #title .title-content p{
         color: white;
@@ -39,6 +52,12 @@
     #title .title-content button{
         font-size: 0.8rem; width: 45%;
         padding: 0;
+    }
+}
+
+@media (max-width: 1000px){
+    .organiser{
+        display: none;
     }
 }
 /* @media (min-width: 1358px){

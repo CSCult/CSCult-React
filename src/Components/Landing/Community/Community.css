@@ -14,10 +14,11 @@
     font-size: 1.2rem;
 }
 #community .row{
-    margin: 7% 10% 0;
+    margin: 7% 10% 0 0;
+    padding-left: 20px;
 }
 #community .img1{
-    width: 110%; 
+    width: 110%; position: relative; left: 3rem;
 }
 #community .img2{
     width: 40%; padding-top: 15px;
@@ -29,8 +30,18 @@
     margin-top: 20px; margin-left: 130px;
 }
 @media (max-width: 1000px){
+    #community .community-content{
+    color: white;
+    margin: 3% 4% 0 0;
+    }
     #community .row{
-        margin: 0;
+        margin: 7% 0 0;
+    }
+    #community .join-discord{
+        margin-top: 20px; margin-left: 0;
+    }
+    #community .row{
+        margin-left: -2.5rem;
     }
     #community .community-content h2{
         font-size: 2.5rem; margin-top: 2rem;

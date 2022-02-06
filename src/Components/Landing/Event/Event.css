@@ -1,7 +1,7 @@
 /* ------------------------------------Event Section---------------------------------- */
 
 #event{
-    margin: 5% 4% 0;
+    padding: 5% 4% 0;
 }
 #event .carousel{
     margin-top: 5%;
@@ -34,6 +34,7 @@
 @media (max-width: 1000px){
     #event{
         height: 800px;
+        margin: 5% 0 0 5%;
     }
     #event .carousel-control-next{
         top: -60%;
