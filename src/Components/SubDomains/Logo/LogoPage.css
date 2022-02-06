@@ -28,6 +28,31 @@
     margin-top: 20%; margin-left: 25%;
 }
 @media (max-width: 1000px){
+    #logo-page .row{
+        margin-left: 0;
+    }
+    #logo-page h1{
+        font-size: 2rem;
+        padding-top: 40px; padding-bottom: 0;
+    }
+    #logo-page h3{
+        font-size: 2rem;
+        margin-top: 30px; margin-left: 0; margin-bottom: 20px; font-weight: 600;
+    }
+    #logo-page p{
+        font-size: 1.2rem; font-weight: 400;
+        padding: 0; 
+    }
+    #logo-page .logo1{
+        height: 300px;
+        margin-top: -3rem; margin-left: -5rem; margin-bottom: 1rem;
+    }
+    #logo-page .logo2{
+        height: 80%;
+        margin-top: 20%; margin-left: 4rem;
+    }
+}
+/* @media (max-width: 1000px){
     #logo-page h1{
         font-size: 5rem;
     }
@@ -56,4 +81,4 @@
     #logo-page .content2{
         position: relative; top: 50px;
     }
-}
+} */
